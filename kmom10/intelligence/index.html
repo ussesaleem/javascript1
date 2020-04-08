@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Javascript 1 - KMOM10</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Intelligenstest</h1>
+    <div class="content">
+        <div class="points"></div>
+        <div id="container">
+            <h2>Introduktion</h2>
+            <p>
+                Välkommen!
+            </p>
+            <p>
+                Detta är ett intelligent test för att mäta din intelligens.
+                Du kommer att tas igenom ett antal tester som poängsätts per fråga.
+            </p>
+            <p>
+                Testet består av 3 delar:<br>
+                - Del 1 består av 5 st tipsfrågor. Rätt svar ger 3p per fråga, fel svar ger 0p.<br>
+                - Del 2 består av ett Fizz Buzz quiz, där starten kommer att slumpas fram och du ska
+                därefter gissa på tomma siffran, om det är en siffra, Fizz, Buzz eller Fizz Buzz. Rätt svar
+                ger 1p och fel svar ger 0p.<br>
+                - Del 3 består av ett memory-quiz, där du får se 9 st flaggor i 5 sekunder innan dessa
+                döljs. Därefter visas en lista med landsnamn och du ska klicka på området där respektive
+                flagga låg i rätt ordning. Om du klickar fel visas alla flaggor och testet är över.
+                Rätt svar ger 1p och fel svar ger 0p.
+            </p>
+            <p>
+                Maxpoäng som kan uppnås för samtliga deltester är 25 poäng. Poängfördelningen per deltest
+                är enligt följande:<br>
+                <b>Deltest 1:</b> 15 poäng<br>
+                <b>Deltest 2:</b> 1 poäng<br>
+                <b>Deltest 3:</b> 9 poäng<br>
+            </p>
+            <p>
+                Lycka till!
+            </p>
+        </div>
+        <div class="action">
+            <button class="start" id="start">Starta</button>
+            <button class="nextOne" id="nextOne">Nästa</button>
+            <button class="nextTwo" id="nextTwo">Nästa</button>
+            <button class="nextThree" id="nextThree">Nästa</button>
+            <button class="result" id="result">Resultat</button>
+            <button class="reset" id="reset">Försök igen</button>
+        </div>
+    </div>
+    <script src="js/questions.js"></script>
+    <script src="js/fizzbuzz.js"></script>
+    <script src="js/memory.js"></script>
+    <script src="js/test.js"></script>
+<!-- <footer class="site-footer">
+    <hr>
+        <p><a href="http://validator.w3.org/check/referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance">Unicorn</a> | <a href="https://codepen.io/ussesaleem/pen/pooZqdG">CodePen</a></p>
+</footer> -->
+</body>
+</html>

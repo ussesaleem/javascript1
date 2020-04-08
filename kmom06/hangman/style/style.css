@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: green;
+}
+
+.content {
+    border: 1px solid black;
+    background-color: #eee;
+    padding: 2em;
+    margin: 0 auto;
+    height: 500px;
+    width: 800px;
+    border-radius: 30px;
+}
+
+.site-footer {
+    text-align: center;
+}
+
+.letterArea {
+    float: left;
+    margin-bottom: 25px;
+}
+
+#resultArea {
+    margin-top: 25px;
+    float: left;
+}
+
+.letter {
+    float: left;
+    margin: 2px;
+    padding: 5px;
+    outline: 1px solid black;
+}
+
+.letter:hover {
+    cursor: pointer;
+    background-color: beige;
+}
+
+#hangman_svg {
+    float: left;
+    height: 400px;
+    width: 800px;
+}

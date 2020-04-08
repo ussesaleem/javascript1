@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+    font-family: 'Fira Code', monospace;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2,
+p {
+    color: white;
+}
+
+.content {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 2em;
+    margin: 0 auto;
+    height: 500px;
+    width: 800px;
+    border-radius: 30px;
+}
+
+.answerOptions,
+.nextOne,
+.nextTwo,
+.nextThree,
+.result,
+.start,
+.reset {
+    border: 1px solid white;
+    padding: 1em;
+    margin: 20px;
+    text-align: center;
+}
+
+.answerOptions:hover,
+.nextOne:hover,
+.nextTwo:hover,
+.nextThree:hover,
+.result:hover,
+.start:hover,
+.reset:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.nextOne,
+.nextTwo,
+.nextThree,
+.result,
+.start {
+    font-family: 'Fira Code', monospace;
+    background-color: black;
+    color: white;
+    float: right;
+}
+
+.reset {
+    font-family: 'Fira Code', monospace;
+    background-color: black;
+    color: white;
+    float: left;
+}
+
+.points {
+    position: absolute;
+    font-family: 'Fira Code', monospace;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 1em;
+    margin: 20px;
+    text-align: center;
+    right: 276px;
+    top: 30px;
+}
+
+.graybox {
+    background-color: gray;
+    z-index: -1;
+    position: absolute;
+}
+
+/* .site-footer {
+    text-align: center;
+} */
+
+#container {
+    position: relative;
+}
+
+#g0Gambia,
+#g1Greece,
+#g2India {
+    top: 52px;
+}
+
+#g3PapuaNewGuinea,
+#g4Seychelles,
+#g5Spain {
+    top: 137px;
+}
+
+#g6Sweden,
+#g7UK,
+#g8USA {
+    top: 222px;
+}
+
+#g0Gambia,
+#g3PapuaNewGuinea,
+#g6Sweden {
+    left: 0;
+}
+
+#g1Greece,
+#g4Seychelles,
+#g7UK {
+    left: 125px;
+}
+
+#g2India,
+#g5Spain,
+#g8USA {
+    left: 250px;
+}
